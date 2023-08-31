@@ -4,7 +4,10 @@ body {
   background: url(./images/daytime-t-bg.gif) no-repeat center center fixed;
   background-size: cover;
 }
-
+.App {
+  text-align: center;
+  max-width: 800px;
+}
 .main {
   font-family: victor mono;
   background-color: rgba(127, 133, 215, 0.19);
