@@ -1,0 +1,9 @@
+body {
+  background: url(./images/aesthetic-clouds.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+}

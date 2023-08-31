@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "victor mono";
+  src: local("victor mono")
+    url("../assets/fonts/victormono-regular-webfont.woff") format("woff");
+}
+
+.text {
+  font-family: "victor mono";
+  font-weight: black;
+}
+
+.App {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+.App footer {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.App footer a {
+  text-decoration: none;
+  color: #4d5259;
+  font-weight: 700;
+}
+
+.App footer a:hover {
+  color: #000000;
+  transition: all 1s ease;
+}

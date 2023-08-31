@@ -1,0 +1,35 @@
+.main {
+  background-color: rgba(127, 133, 215, 0.19);
+  max-width: 800px;
+  margin: 7.5% auto 0 auto;
+  padding: 40px;
+  border: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  color: rgb(249, 249, 249);
+}
+.main form {
+  margin: 0, 0, 0, 0;
+  float: right;
+}
+.main input[type="text"],
+.main button {
+  padding: 4px 4px;
+  border-radius: 8px;
+  border: 3px solid rgba(254, 254, 255, 0.672);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: 0, 0, 0, 0;
+}
+.main button {
+  margin-left: 10px;
+  padding: 4px 12px;
+  background-color: white;
+}

@@ -1,0 +1,8 @@
+.WeatherTemperature a {
+  text-decoration: none;
+  color: white;
+}
+
+.WeatherTemperature .linkNone {
+  color: white;
+}
