@@ -1,9 +1,10 @@
 p {
+  font-family: victor mono;
   color: rgb(251, 252, 255);
   margin: 20px auto;
 }
 a {
   text-decoration: dotted;
-
-  color: rgb(165, 129, 194);
+  font-style: italic;
+  color: rgba(180, 161, 247, 0.927);
 }

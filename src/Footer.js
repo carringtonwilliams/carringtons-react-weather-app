@@ -6,13 +6,20 @@ export default function Footer() {
     <p clssName="footer">
       An open-source project created by{" "}
       <a
-        href="https://github.com/carringtonwilliams/my-react-weather-app"
+        href="https://github.com/carringtonwilliams/carringtons-react-weather-app-2/tree/master"
         target="_blank"
         rel="noreferrer"
       >
         Carrington Williams
       </a>{" "}
-      using Javascript, HTML, & CSS ♡
+      using Javascript, HTML, & CSS and{" "}
+      <a
+        href="https://boisterous-trifle-3cf749.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        hosted on Netlify ♡
+      </a>
     </p>
   );
 }

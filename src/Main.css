@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+body {
+  background: url(./images/daytime-t-bg.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
 .main {
+  font-family: victor mono;
   background-color: rgba(127, 133, 215, 0.19);
   max-width: 800px;
-  margin: 7.5% auto 0 auto;
+  margin: 5% auto 0 auto;
   padding: 40px;
   border: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -20,6 +28,7 @@
 }
 .main input[type="text"],
 .main button {
+  font-style: italic;
   padding: 4px 4px;
   border-radius: 8px;
   border: 3px solid rgba(254, 254, 255, 0.672);
@@ -32,4 +41,9 @@
   margin-left: 10px;
   padding: 4px 12px;
   background-color: white;
+}
+
+.WeatherTemperature {
+  font-size: 40px;
+  padding-top: 35px;
 }

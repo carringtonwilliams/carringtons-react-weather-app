@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
           <Icon weatherId={props.data.icon} />
         </div>
         <div className="col-sm">
-          <Temp celsius={props.data.temp} />
+          <Temp fahrenheit={props.data.temp} />
         </div>
       </div>
     </div>

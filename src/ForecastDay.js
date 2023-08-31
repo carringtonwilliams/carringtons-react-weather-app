@@ -13,8 +13,8 @@ export default function ForecastDay(props) {
       <div>{day()}</div>
       <Icon weatherId={props.data.weather[0].id} />
       <div>
-        <span>{Math.round(props.data.temp.max)}°C</span> |{" "}
-        <span>{Math.round(props.data.temp.min)}°C</span>
+        <span>{Math.round(props.data.temp.max)}°F</span>|{""}
+        <span>{Math.round(props.data.temp.min)}°F</span>
       </div>
     </div>
   );

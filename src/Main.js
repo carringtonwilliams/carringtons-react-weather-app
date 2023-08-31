@@ -45,14 +45,14 @@ export default function Main(props) {
         <form onClick={handleSubmit}>
           <input
             type="text"
-            placeholder="Search for a city . . ."
+            placeholder="Search for a city..."
             onChange={updateCity}
           />
           <button type="submit">
             {
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}
-                style={{ color: "rgb(165, 129, 194)" }}
+                style={{ color: "#86d0fc" }}
               />
             }
           </button>
